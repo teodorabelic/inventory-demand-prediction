@@ -1,0 +1,49 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Input datasets that may be large or subject to redistribution restrictions
+data/*
+!data/demo_train.csv
+!data/.gitkeep
+
+# Generated training outputs and visualizations
+artifacts/*
+!artifacts/.gitkeep
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and generated files
+*.log
+*.tmp
+*.swp
+*.swo
